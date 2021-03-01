@@ -1,0 +1,1 @@
+the purpose of this application is to help users to manage their life's expenses.

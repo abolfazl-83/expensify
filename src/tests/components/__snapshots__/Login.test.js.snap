@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Login correctly 1`] = `
+<Fragment>
+  <button
+    onClick={[Function]}
+  >
+    Login Now!
+  </button>
+</Fragment>
+`;

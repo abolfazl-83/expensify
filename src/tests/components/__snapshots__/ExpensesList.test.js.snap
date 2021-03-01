@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesList with 0 expenses 1`] = `<Fragment />`;
+
+exports[`should render ExpensesList with 1 expense 1`] = `
+<Fragment>
+  <Expense
+    amount={540}
+    createdAt={432000000}
+    description="gas bill"
+    id="1"
+    key="1"
+    note="october gas bill"
+  />
+</Fragment>
+`;
+
+exports[`should render ExpensesList with multiple expenses 1`] = `
+<Fragment>
+  <Expense
+    amount={540}
+    createdAt={432000000}
+    description="gas bill"
+    id="1"
+    key="1"
+    note="october gas bill"
+  />
+  <Expense
+    amount={20000}
+    createdAt={-432000000}
+    description="water payment"
+    id="2"
+    key="2"
+    note="April water payment"
+  />
+  <Expense
+    amount={3200}
+    createdAt={864000000}
+    description="bank loan"
+    id="3"
+    key="3"
+    note=""
+  />
+</Fragment>
+`;

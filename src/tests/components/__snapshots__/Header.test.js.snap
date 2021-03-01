@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the Header correctly 1`] = `
+<Fragment>
+  <Link
+    to="/dashboard"
+  >
+    <h1>
+      Expensify
+    </h1>
+  </Link>
+  <nav>
+    <NavLink
+      activeClassName="menu-activated"
+      exact={true}
+      to="/dashboard"
+    >
+      Dashboard
+    </NavLink>
+    <NavLink
+      activeClassName="menu-activated"
+      to="/create"
+    >
+      Create
+    </NavLink>
+    <button
+      onClick={[Function]}
+    >
+      Logout
+    </button>
+  </nav>
+</Fragment>
+`;

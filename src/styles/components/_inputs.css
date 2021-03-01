@@ -1,0 +1,23 @@
+.text-input{
+    border: 1px solid #cacccd;
+    height: 50px;
+    padding: 1.2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.select {
+    /* @extend .text-input      this is scss feature to copy every thing from text-input to this one! */
+    height: 50px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    border: 1px solid #cacccd;
+}
+.textarea { 
+    height: 10rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 1.2rem;
+    border : 1px solid #cacccd;
+}

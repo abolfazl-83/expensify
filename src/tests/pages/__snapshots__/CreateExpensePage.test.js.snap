@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render CreateExpensePage correctly 1`] = `
+<Fragment>
+  <Connect(CreateExpense)
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+  />
+</Fragment>
+`;

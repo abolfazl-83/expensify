@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expense correctly 1`] = `
+<div>
+  <Link
+    to="/edit/2"
+  >
+    water payment
+  </Link>
+  <p>
+    $200.00
+  </p>
+  <p>
+    Saturday, December 27th 1969
+  </p>
+  <p>
+    April water payment
+  </p>
+  <hr />
+</div>
+`;

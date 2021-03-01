@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpensesSummery with 0 expenses 1`] = `
+<Fragment>
+  <h1>
+    viewing 
+    0
+     expenses totaling 
+    $0.00
+  </h1>
+</Fragment>
+`;
+
+exports[`should render ExpensesSummery with 1 expense 1`] = `
+<Fragment>
+  <h1>
+    viewing 
+    1
+     expenses totaling 
+    $0.00
+  </h1>
+</Fragment>
+`;
+
+exports[`should render ExpensesSummery with multiple expenses 1`] = `
+<Fragment>
+  <h1>
+    viewing 
+    2
+     expenses totaling 
+    $3.21
+  </h1>
+</Fragment>
+`;

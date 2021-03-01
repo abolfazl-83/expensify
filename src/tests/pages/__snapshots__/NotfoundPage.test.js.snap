@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NotfoundPage correctly 1`] = `
+<Fragment>
+  <Notfound
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+  />
+</Fragment>
+`;
